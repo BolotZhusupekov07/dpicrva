@@ -1,0 +1,18 @@
+p{
+    font-size: 15px;
+    line-height: 24px;
+}
+.ftco-section{
+    margin-top: -60px;
+}
+.m{
+    margin-top: -45px; 
+    margin-bottom: -200px;
+}
+.pl{
+    font-size: 20px;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, .font-primary {
+  font-family: "Georgia", sans-serif;
+}

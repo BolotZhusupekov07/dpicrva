@@ -533,6 +533,15 @@ section {
   padding-bottom: 0;
   color: #5c768d;
 }
+.section-title h3 {
+  font-size: 27px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #5c768d;
+  
+}
 
 .section-title p {
   margin-bottom: 0;
