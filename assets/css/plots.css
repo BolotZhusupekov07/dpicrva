@@ -1,18 +1,24 @@
-p{
-    font-size: 15px;
-    line-height: 24px;
-}
+
 .ftco-section{
     margin-top: -60px;
 }
 .m{
-    margin-top: -45px; 
+    margin-top: -30px; 
     margin-bottom: -200px;
 }
 .pl{
-    font-size: 20px;
+    font-size: 19px;
     font-weight: 400;
+    font-family:  "Open Sans", sans-serif;}
+p{
+
+  font-size: 14px;
+  font-weight: 400;
+  font-family:  "Open Sans", sans-serif;
+  line-height: 22px;
+
 }
-h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Georgia", sans-serif;
-}
+h1,h2, h3, h4, h5, h6, .font-primary {
+    font-family:  "Open Sans", sans-serif;;
+   
+  }
