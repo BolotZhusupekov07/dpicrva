@@ -12,9 +12,7 @@
     text-decoration: none;
   }
   
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  }
+
   
   .display-4 {
     font-size: 2.5rem;
@@ -32,11 +30,12 @@
   .social-part .fa{
     padding-right:20px;
 }
-ul li a{
-    margin-right: 20px;
-}
 
-  
+
+p{
+  text-indent: 11px;
+  font-size: 15px;
+}
   
   .card-img-right {
     height: 100%;
@@ -68,7 +67,7 @@ ul li a{
     font-weight: 400;
   }
   .blog-description {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #999;
   }
   
