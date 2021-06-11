@@ -175,14 +175,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   color: #5c768d;
   white-space: nowrap;
   transition: 0.3s;
 }
 
 .navbar a i {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .navbar .dropdown ul {
   display: block;
   position: absolute;
-  left: 14px;
+  left: 0;
   top: 100%;
   margin: 0;
   padding: 10px 0;
@@ -207,7 +207,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .navbar .dropdown ul li {
-  min-width: 200px;
+  min-width: 210px;
+  text-align: left;
 }
 
 .navbar .dropdown ul a {
@@ -216,7 +217,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
@@ -241,14 +242,14 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-  .navbar .dropdown .dropdown:hover > ul {
-    left: -100%;
-  }
+
+.navbar .dropdown .dropdown ul {
+  left: -150%;
 }
+.navbar .dropdown .dropdown:hover > ul {
+  left: -150%;
+}
+
 
 /**
 * Mobile Navigation 
@@ -357,7 +358,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 155px);
+  height: calc(100vh - 110px);
   padding: 0;
   overflow: hidden;
   background: #000;
@@ -422,6 +423,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
+  font-size: 15px;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -1096,8 +1098,8 @@ section {
 }
 
 .portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 23px;
+  font-weight: 500;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
@@ -1105,13 +1107,16 @@ section {
 
 .portfolio-details .portfolio-info ul {
   list-style: none;
-  padding: 0;
-  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 17px;
+
 }
 
 .portfolio-details .portfolio-info ul li  {
   margin-top: 10px;
-  color:black
+  color: #444;
+  font-size: 15px;
 }
 
 .portfolio-details .portfolio-description {
@@ -1128,14 +1133,23 @@ section {
   padding: 0;
   font-size: 15px;
 }
+.portfolio-custom-2{
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+
 .portfolio-custom p{
-  font-size:14px;
+  font-size:15px;
+
 }
 .portfolio-custom h4{
   font-size:16px;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  font-style: italic;
+  font-weight: 600;
 }
 /* Cards */
 
@@ -1276,6 +1290,7 @@ section {
   .portfolio-container{
     margin-right:-2px;
   }
+  
 }
 @media (min-width: 540px) {
   .card{
@@ -1351,8 +1366,8 @@ section {
 .team .member .pic {
   border-radius: 4px;
   overflow: hidden;
-  width: 50%;
-  margin-left: 100px;
+  width: 70%;
+  margin-left: 50px;
 }
 
 .team .member img {
@@ -1581,7 +1596,7 @@ section {
 
 #footer {
   background: #587187;
-  padding: 0 0 30px 0;
+  padding: 0 0 0 0;
   color: #fff;
   font-size: 14px;
 }
@@ -1594,7 +1609,7 @@ section {
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 1px;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1713,10 +1728,7 @@ section {
   background: #5295ce;
 }
 
-#footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-}
+
 
 #footer .credits {
   padding-top: 10px;
@@ -1729,7 +1741,7 @@ section {
   color: #9eccf4;
 }
 th, td{
-  font-size: 12px;
+  font-size: 14px;
 }
 .descriptions{
   width: 620px;

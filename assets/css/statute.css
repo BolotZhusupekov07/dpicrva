@@ -1,7 +1,7 @@
 p{
     font-size: 14px;
     margin-bottom: -1px;
-    text-indent: 11px;
+    text-indent: 15px;
     padding-top: 5px;
 }
 li {
@@ -16,4 +16,16 @@ h2{
     padding-top: 18px;
     padding-bottom: 10px;
     padding-left: -10px;
+}
+h4 {
+    font-weight: 700;
+}
+.inner-h4{
+    font-size: 18px;
+    padding-top: 9px;
+    text-indent: 15px;
+    font-weight: 600;
+}
+.inner-h2{
+    font-size: 25px;
 }
