@@ -1087,6 +1087,11 @@ section {
   opacity: 1;
   border: 1px solid #428bca;
 }
+.swiper-slide img{
+  width:  520px;
+  height: 380px;
+  object-fit: cover;
+}
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #428bca;
@@ -1372,6 +1377,9 @@ section {
 
 .team .member img {
   transition: all ease-in-out 0.4s;
+  width:  520px;
+  height: 380px;
+  object-fit: cover;
 }
 
 .team .member:hover img {
@@ -1622,7 +1630,7 @@ section {
 
 #footer .footer-top .footer-info p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 22px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -1650,11 +1658,12 @@ section {
 }
 
 #footer .footer-top h4 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   color: #fff;
   position: relative;
-  padding-bottom: 12px;
+  padding-bottom: 10px;
+  padding-top: 15px;
 }
 
 #footer .footer-top .footer-links {
@@ -1675,9 +1684,11 @@ section {
 }
 
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
+  padding: 7px 3px;
   display: flex;
+  font-size: 14px;
   align-items: center;
+
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1688,7 +1699,7 @@ section {
   color: #fff;
   transition: 0.3s;
   display: inline-block;
-  line-height: 1;
+  line-height: 21px;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -1755,4 +1766,22 @@ th, td{
 .break-table{
   font-weight: 700;
   text-align: center;
+}
+
+@media (min-width:320px){
+  .footer-top .footer-links h4{
+    margin-top:10px;
+
+  }
+  .vnd{
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-top:-30px;
+  }
+}
+@media (min-width:500px){
+  .vnd{
+    margin-bottom:10px;
+    margin-left:210px;
+  }
 }
