@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: #fff;
   border-bottom: 1px solid #eee;
   font-size: 15px;
-  height: 148px;
+  height: 180px;
   padding: 0;
 }
 #topbar img{
@@ -369,7 +369,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: calc(100vh - 208x);
+  height: calc(100vh - 240x);
   padding: 0;
   overflow: hidden;
   background: #000;
@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #hero .carousel-item {
   width: 100%;
-  height: calc(100vh - 208px);
+  height: calc(100vh - 240px);
   background-size: cover;
   background-position: top right;
   background-repeat: no-repeat;
@@ -1372,7 +1372,7 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0 30px 0;
+
 }
 
 .team .member {
@@ -1386,6 +1386,8 @@ section {
   overflow: hidden;
   width: 70%;
   margin-left: 50px;
+
+
 }
 
 .team .member img {
@@ -1460,6 +1462,19 @@ section {
 @media (max-width: 992px) {
   .team .member {
     margin-bottom: 100px;
+  }
+  .team .member img {
+    width:  520px;
+  height: 380px;
+  object-fit: cover;
+  }
+  .team .member .pic{
+    margin-left: -20px;
+    width: 100%;
+  }
+  .team .member .member-info {
+    width: 100%;
+    margin-left: -20px;
   }
 }
 
@@ -1797,4 +1812,106 @@ th, td{
     margin-bottom:10px;
     margin-left:210px;
   }
+}
+
+.logo{    width: 110px;    margin: 15px 0 15px 0;}
+.logo img{width:100%;}
+
+.slogan{color: #5c768d;  font-family: 'Arial';    text-align: left;
+    line-height: 24px;    font-size: 16px;
+    font-family: 'Arial';
+    font-weight: 500;     margin: 38px 0 0 -40px; }
+.gerb{    width: 100%;    text-align: right;    margin: 15px 0 0 0;}
+.gerb img{width: 137px;}
+.phone-tel{    padding: 10px;    text-align: right;    color: #5c768d;
+    font-size: 18px;    font-weight: bold;    margin: 10px 0 0 0;}
+.dovoria{    font-weight: normal;       font-size: 15px;}
+
+
+
+.flex{display: flex;    flex-wrap: wrap;}
+
+@media screen and (max-width: 800px) {
+	.logo {
+		    width: 70px;    margin: 19px 0 5px 0;
+	}
+  .dovoria{
+    font-size: 13px;
+  }
+	.hide{display:none }
+	.navbar>.container, .navbar>.container-fluid{display:none}
+	.slogan {
+		color: #5c768d;
+		font-weight: 600;
+		text-align: left;
+		line-height: 1.3;
+		font-size: 14px;
+		margin: 25px 0 0 0;
+    margin-left: 5px;
+	}
+	.phone-tel {
+		padding: 5px;
+		text-align: center;
+    color: #5c768d;
+		font-size: 13px;
+		font-weight: bold;
+		margin: 0;
+
+
+	}
+	.mob-bar{
+     color: #5c768d;
+			text-align: center;
+			font-size: 18px;
+			display:block;
+			width: 100%;
+	}
+    .image-news {
+        width: 100%;
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin: 5px 0 5px 0;
+    }
+	.news-title {
+		width: 100%;
+		margin-left:unset;
+	}
+    .news-l a{width: 100%}
+	.banner-l {
+		margin: 15px 0 15px 0;
+		text-align: center;
+
+	}
+	.cont-text img{width:100%}
+	.cont-text h2{font-size:22px;}
+	.profile-min{display:none;}
+	.fullhide{display:block}
+    .profile-min-mob .min{width: 100px;     margin-right: 10px;}
+    .profile-min-mob .min img{width: 100px}
+    .profile-min-mob{    padding: 5px;
+        background-color: #f7f7f7;
+        margin: 15px 0 15px 0;}
+    .profile-min-mob .pr-txt{        width: 62%;       font-size: 13px;}
+    .st-title h4 {
+        text-align: center;
+        font-size: 16px;
+    }
+    .certNews h3{font-size: 18px;}
+    .thum-img{    margin: 15px 0 15px 0;}
+    .video-tumb{    margin: 15px 0 15px 0;}
+    .th-roz-i{    margin: 15px 0 15px 0;}
+    #myModal iframe {        width: 100%;        height: 300px;}
+
+}
+
+.text-red{
+    color: red !important;
+}
+.text-sm{
+    font-size: .7rem !important;
+}
+.okmots-ba-1 img{
+    width: 100%;
 }
