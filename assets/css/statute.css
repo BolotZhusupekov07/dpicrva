@@ -1,13 +1,23 @@
-p{
+.blog-post p{
     font-size: 14px;
     margin-bottom: -1px;
     text-indent: 15px;
     padding-top: 5px;
 }
+.blog-sidebar p{
+    font-size: 15px;
+}
 li {
     font-size: 14px;
     padding-top: 6px;
 
+}
+
+.blog-main p{
+    font-size: 14px;
+    margin-bottom: -1px;
+    text-indent: 15px;
+    padding-top: 5px;
 }
 .inside-list{
     padding-top: 7px;
