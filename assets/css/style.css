@@ -1379,6 +1379,7 @@ section {
   text-align: center;
   margin-bottom: 80px;
   position: relative;
+ 
 }
 
 .team .member .pic {
@@ -1407,7 +1408,7 @@ section {
   left: 20px;
   right: 20px;
   background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
-  padding: 7px 0;
+  padding: 15px 10px;
   border-radius: 4px;
   width: 70%;
   margin-left: 48px;
@@ -1437,7 +1438,7 @@ section {
 .team .member span {
   font-style: italic;
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   color: #fff;
 }
 
