@@ -1287,11 +1287,11 @@ section {
 }
 @media (min-width: 350px) {
   .card{
-    width: 170px;
+    width: 175px;
  
   }
   .card-img{
-    width: 170px;
+    width: 175px;
   }
   .portfolio-container{
     margin-left:-17px;
