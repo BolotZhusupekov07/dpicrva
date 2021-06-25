@@ -268,10 +268,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 */
 .mobile-nav-toggle {
   color: #1f3548;
-  font-size: 25px;
+  font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
+  margin-left: 340px;
   transition: 0.5s;
 }
 
@@ -295,6 +296,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 0;
   left: 0;
   bottom: 0;
+  margin-left:1px;
   background: rgba(31, 53, 72, 0.9);
   transition: 0.3s;
   z-index: 998;
