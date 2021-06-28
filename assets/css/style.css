@@ -296,11 +296,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 0;
   left: 0;
   bottom: 0;
-  margin-right:-5px;
+ 
   background: rgba(31, 53, 72, 0.9);
   transition: 0.3s;
   z-index: 998;
-  margin-left: 1px;
+
 }
 
 .navbar-mobile .mobile-nav-toggle {
@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 55px;
   right: 15px;
   bottom: 15px;
-  left: 15px;
+  left:37px;
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
