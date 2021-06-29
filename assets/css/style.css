@@ -1944,7 +1944,7 @@ th, td{
 
 .flex{display: flex;    flex-wrap: wrap;}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 873px) {
 	.logo {
 		    width: 70px;    margin: 19px 0 5px 0;
 	}
@@ -2006,7 +2006,7 @@ th, td{
 
 
 }
-@media screen and (min-width: 812px) {
+@media screen and (min-width: 812px){
   .logo {
     width: 70px;    margin: 19px 0 5px 0;
 }
@@ -2036,7 +2036,7 @@ display: none;
 
 }
 }
-@media screen and (min-width: 826px) {
+@media screen and (min-width: 874px) {
   .logo{    width: 110px;    margin: 15px 0 15px 0;}
 .logo img{width:100%;}
 
